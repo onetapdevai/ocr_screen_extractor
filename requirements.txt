@@ -1,0 +1,8 @@
+PySide6
+paddleocr==3.0.0
+paddlepaddle==3.0.0
+setuptools
+# Pillow is often a dependency for image handling with OCR and GUI,
+# but paddleocr or PySide6 might pull it in.
+# Adding it explicitly can sometimes avoid issues.
+Pillow
