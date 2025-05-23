@@ -38,7 +38,7 @@ This script uses the PaddleOCR library to recognize text in images.
 4.  **Install necessary libraries:**
     In the activated virtual environment, execute the following commands to install PaddleOCR and its dependencies:
 
-    `pip install requirements.txt` or
+    `pip install -r requirements.txt` or
 
     *   **Install `paddleocr` (version 3.0.0, as used in the project):**
         ```bash
